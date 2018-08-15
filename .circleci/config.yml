@@ -27,7 +27,7 @@ jobs:
       - run:
           name: build gold image in Azure
           command: |
-            packer build cowbull-webserver.json
+            packer build cowbull-dbserver.json
           no_output_timeout: 60m
 
       - save_cache:
